@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux'
 import InitStartup from '@/Store/Startup/Init'
 import { useTranslation } from 'react-i18next'
 import { Brand } from '@/Components'
+import WheelOfFortune from 'react-native-wheel-of-fortune'
 
 const IndexStartupContainer = () => {
   const { Layout, Gutters, Fonts } = useTheme()
